@@ -1,5 +1,6 @@
 import Head from "next/head";
-import styles from "../styles/Home.module.css";
+import Header from "components/Header";
+import Nav from "components/Nav";
 
 export default function Home() {
   return (
@@ -8,7 +9,8 @@ export default function Home() {
         <title>Next App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <p>HRLLO WORLD</p>
+      <Header></Header>
+      <Nav></Nav>
     </div>
   );
 }
